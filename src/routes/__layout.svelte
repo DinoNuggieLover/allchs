@@ -19,6 +19,7 @@
     <nav>
       <section>
          <a href="/credits">Credits</a>
+         <a href="https://github.com/DinoNuggieLover/allchs">Github</a>
       </section>
       <section>
          <span>All CHS 2022</span>
