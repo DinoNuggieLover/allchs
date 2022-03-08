@@ -2,7 +2,7 @@
   <title>Chat | All CHS</title>
 </svelte:head>
 
-<iframe sandbox="allow-forms allow-modals allow-scripts" src="https://web.libera.chat/?theme=nightswatch#chstunnel"></iframe>
+<iframe src="https://web.libera.chat/?theme=nightswatch#chstunnel"></iframe>
 
 <style>
   iframe {
