@@ -55,9 +55,10 @@
         <p>No Results Found</p>
     </div>
 </div>
+
 <div bind:this="{thumbnails}" id="thumbnails">
-    {#each games as { image, location, title }, i}
-    <a class="thumbnail" href="/games/{title}">
+    {#each games as { image, public, source, title }, i}
+    <a class="thumbnail" href={public}>
         <img src="/game/thumbnails/{image}" />
         <div class="title">{title}</div>
     </a>
