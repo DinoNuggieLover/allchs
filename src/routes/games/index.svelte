@@ -57,8 +57,8 @@
 </div>
 
 <div bind:this="{thumbnails}" id="thumbnails">
-    {#each games as { image, public, source, title }, i}
-    <a class="thumbnail" href={public}>
+    {#each games as { image, pub, source, title }, i}
+    <a class="thumbnail" href={pub}>
         <img src="/game/thumbnails/{image}" />
         <div class="title">{title}</div>
     </a>
