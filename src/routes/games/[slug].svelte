@@ -4,10 +4,12 @@ export async function load({ params, fetch, session, stuff }) {
     let request = await fetch("/json/games.json");
     let games = await request.json();
     for (let i = 0; i < games.length; i++) {
-      if (games[i].id == params.slug) {
+      let game = games[i];
+      if (game.id == params.slug) {
+        game.source = "Place Holder";
         return {
           props: {
-            game: games[i]
+            game: game
           }
         }
       }
@@ -27,6 +29,22 @@ export async function load({ params, fetch, session, stuff }) {
    <title>{game.title} | All CHS</title>
 </svelte:head>
 
-<h1>title: {game.title}</h1>
-<p>source of game: {game.source}</p>
-<p>this page is a placeholder for the game player</p>
+<div class="frame">
+  <div class="controls"></div>
+  <iframe src={game.source}/>
+</div>
+
+<style>
+.frame iframe {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: none;
+}
+
+.frame .controls {
+    right: 10%;
+    margin-top: 25px;
+    position: absolute;
+}
+</style>
