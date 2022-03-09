@@ -2,6 +2,9 @@
     <title>Home | All CHS</title>
 </svelte:head>
 
+<div class="wip">
+    All CHS is not yet finished. Please bookmark this page and comeback later when this site is fully functional.
+</div>
 <div class="image-container">
     <img src="/image/large-logo.png" class="large-logo" />
 </div>
@@ -41,5 +44,10 @@
         font-size: 18px;
         margin-top: 30px;
         border-radius: 30px;
+    }
+    .wip {
+        margin: auto;
+        width: 100%;
+        text-align: center;
     }
 </style>

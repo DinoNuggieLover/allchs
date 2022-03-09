@@ -4,9 +4,6 @@
     <title>All CHS</title>
   </svelte:head>
   <body>
-      <div class="wip">
-        All CHS is not yet finished. Please bookmark this page and comeback later when this site is fully functional.
-      </div>
       <nav>
         <a href="/"> <img border="0" class="logo-img" src="/image/logo.png" height="110" width="110"></a>
         <ul>
@@ -55,12 +52,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins','sans-serif';
-}
-  
-.wip {
-  margin: auto;
-  width: 100%;
-  text-align: center;
 }
   
 * {
