@@ -27,5 +27,6 @@ export async function load({ params, fetch, session, stuff }) {
    <title>{game.title} | All CHS</title>
 </svelte:head>
 
-<h1>{game.title}</h1>
-<p>Source of Game: {game.source}</p>
+<h1>title: {game.title}</h1>
+<p>source of game: {game.source}</p>
+<p>this page is a placeholder for the game player</p>
