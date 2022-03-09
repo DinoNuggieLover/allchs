@@ -29,22 +29,13 @@ export async function load({ params, fetch, session, stuff }) {
    <title>{game.title} | All CHS</title>
 </svelte:head>
 
-<div class="frame">
-  <div class="controls"></div>
-  <iframe src={game.source}/>
-</div>
+<iframe src={game.source}/>
 
 <style>
-.frame iframe {
+iframe {
     width: 100%;
-    height: 100%;
     background: white;
     border: none;
-}
-
-.frame .controls {
-    right: 10%;
-    margin-top: 25px;
-    position: absolute;
+    height: 420px; /* TODO: Fix This */
 }
 </style>
