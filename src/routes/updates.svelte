@@ -32,7 +32,7 @@
       {#each data as update}
         <li>{update}</li>
       {/each}
-    <ul/>
+    </ul>
   {/each}
 </div>
 
