@@ -3,31 +3,36 @@
         "image": "1-on-1-soccer.jpg",
         "pub": "/games/flash/1on1soccer",
         "source": "/game/swfs/1on1soccer.swf",
-        "title": "1 on 1 Soccer"
+        "title": "1 on 1 Soccer",
+        "id": "1on1soccer"
     },
     {
         "image": "2048.jpg",
         "pub": "/games/2048/",
         "source": "/game/2048/",
-        "title": "2048"
+        "title": "2048",
+        "id": "2048"
     },
     {
         "image": "a-fancy-pants-adventure.jpg",
         "pub": "/games/flash/a-fancy-pants-adventure-world1",
         "source": "/game/swfs/a-fancy-pants-adventure-world1.swf",
-        "title": "A Fancy Pants Adventure"
+        "title": "A Fancy Pants Adventure",
+        "id": "a-fancy-pants-adventure-world1"
     },
     {
         "image": "alien-hominid.jpg",
         "pub": "/games/flash/alienhominid",
         "source": "/game/swfs/alienhominid.swf",
-        "title": "Alien Hominid"
+        "title": "Alien Hominid",
+        "id": "alienhomind"
     },
     {
         "image": "astray.jpg",
         "pub": "/games/astray/",
         "source": "/game/astray/",
-        "title": "Astray"
+        "title": "Astray",
+        "id": "astray"
     },
     {
         "image": "chroma.jpg",
@@ -39,180 +44,210 @@
         "image": "chrome-dinosaur.jpg",
         "pub": "/games/dinosaur/",
         "source": "/game/dinosaur/",
-        "title": "Chrome Dinosaur"
+        "title": "Chrome Dinosaur",
+        "id": "dinosaur"
     },
     {
         "image": "cookie-clicker.jpg",
         "pub": "/games/cookie/",
         "source": "/game/cookie/",
-        "title": "Cookie Clicker"
+        "title": "Cookie Clicker",
+        "id": "cookie"
     },
     {
         "image": "cubefield.jpg",
         "pub": "/games/cubefield/",
         "source": "/game/cubefield/",
-        "title": "Cubefield"
+        "title": "Cubefield",
+        "id": "cubefield"
     },
     {
         "image": "doodle-jump.jpg",
         "pub": "/games/doodle-jump/",
         "source": "/game/doodle-jump/",
-        "title": "Doodle Jump"
+        "title": "Doodle Jump",
+        "id": "doodle-jump"
     },
     {
         "image": "drift-hunters.jpg",
         "pub": "/games/drift/",
         "source": "/game/drift/",
-        "title": "Drift Hunters"
+        "title": "Drift Hunters",
+        "id": "drift"
     },
     {
         "image": "ducklife.jpg",
         "pub": "/games/ducklife/",
         "source": "/game/ducklife/",
-        "title": "Duck Life"
+        "title": "Duck Life",
+        "id": "ducklife"
     },
     {
         "image": "ducklife2.jpg",
         "pub": "/games/ducklife2/",
         "source": "/game/ducklife2/",
-        "title": "Duck Life 2"
+        "title": "Duck Life 2",
+        "id": "ducklife2"
     },
     {
         "image": "ducklife3.jpg",
         "pub": "/games/ducklife3/",
         "source": "/game/ducklife3/",
-        "title": "Duck Life 3: Evolution"
+        "title": "Duck Life 3: Evolution",
+        "id": "ducklife3"
     },
     {
         "image": "ducklife4.jpg",
         "pub": "/games/ducklife4/",
         "source": "/game/ducklife4/",
-        "title": "Duck Life 4"
+        "title": "Duck Life 4",
+        "id": "ducklife4"
     },
     {
         "image": "fireboy-and-watergirl-forest-temple.jpg",
         "pub": "/games/fireboy-and-watergirl-forest-temple/",
         "source": "/game/fireboy-and-watergirl-forest-temple/",
-        "title": "Fireboy & Watergirl Into the Forest Temple"
+        "title": "Fireboy & Watergirl Into the Forest Temple",
+        "id": "ireboy-and-watergirl-forest-temple"
     },
     {
         "image": "flappybird.jpg",
         "pub": "/games/flappybird/",
         "source": "/game/flappybird/",
-        "title": "Flappy Bird"
+        "title": "Flappy Bird",
+        "id": "flappybird"
     },
     {
         "image": "friendlyfire.jpg",
         "pub": "/games/friendlyfire/",
         "source": "/game/friendlyfire/",
-        "title": "Friendly Fire"
+        "title": "Friendly Fire",
+        "id": "friendlyfire"
     },
     {
         "image": "geometry.jpg",
         "pub": "/games/geometry/",
         "source": "/game/geometry/",
-        "title": "Geometry Dash"
+        "title": "Geometry Dash",
+        "id": "geometry"
     },
     {
         "image": "gopherkart.jpg",
         "pub": "/games/gopher-kart/",
         "source": "/game/gopher-kart/",
-        "title": "Gopher Kart"
+        "title": "Gopher Kart",
+        "id": "gopher-kart"
     },
     {
         "image": "hexgl.jpg",
         "pub": "/games/hexgl/",
         "source": "/game/hexgl/",
-        "title": "HexGL"
+        "title": "HexGL",
+        "id": "hexgl"
     },
     {
         "image": "minecraft.jpg",
         "pub": "/games/mc-classic/",
         "source": "/game/mc-classic/", 
-        "title": "Minecraft Classic"
+        "title": "Minecraft Classic",
+        "id": "mc-classic"
     },
     {
         "image": "pacman.jpg",
         "pub": "/games/pacman/",
         "source": "/game/pacman/",
-        "title": "Pac Man"
+        "title": "Pac Man",
+        "id": "pacman"
     },
     {
         "image": "portal2d.jpg",
         "pub": "/games/flash/portal2d",
         "source": "/game/swfs/portal2d.swf",
-        "title": "Portal 2D"
+        "title": "Portal 2D",
+        "id": "portal2d"
     },
     {
         "image": "radiusraid.jpg",
         "pub": "/games/radius-raid/",
         "source": "/game/radius-raid/",
-        "title": "Radius Raid"
+        "title": "Radius Raid",
+        "id": "radius-raid"
     },
     {
         "image": "retro-bowl.jpg",
         "pub": "/games/retro-bowl/",
         "source": "/game/retro-bowl/",
-        "title": "Retro Bowl"
+        "title": "Retro Bowl",
+        "id": "retro-bowl"
     },
     {
         "image": "ritz.jpg",
         "pub": "/games/ritz/",
         "source": "/game/ritz/",
-        "title": "Ritz"
+        "title": "Ritz",
+        "id": "ritz"
     },
     {
         "image": "run3.jpg",
         "pub": "/games/run3/",
         "source": "/game/run3/",
-        "title": "Run 3"
+        "title": "Run 3",
+        "id": "run3"
     },
     {
         "image": "slope.jpg",
         "pub": "/games/slope/",
         "source": "/game/slope/",
-        "title": "Slope"
+        "title": "Slope",
+        "id": "slope"
     },
     {
         "image": "sm64.jpg",
         "pub": "/games/sm64/",
         "source": "/game/sm64/",
-        "title": "Super Mario 64"
+        "title": "Super Mario 64",
+        "id": "sm64"
     },
     {
         "image": "spaceinvaders.jpg",
         "pub": "/games/spaceinvaders/",
         "source": "/game/spaceinvaders/",
-        "title": "Space Invaders"
+        "title": "Space Invaders",
+        "id": "spaceinvaders"
     },
     {
         "image": "vex3.jpg",
         "pub": "/games/vex3/",
         "source": "/game/vex3/",
-        "title": "Vex 3"
+        "title": "Vex 3",
+        "id": "vex3"
     },
     {
         "image": "vex4.jpg",
         "pub": "/games/vex4/",
         "source": "/game/vex4/",
-        "title": "Vex 4"
+        "title": "Vex 4",
+        "id": "vex4"
     },
     {
         "image": "vex5.jpg",
         "pub": "/games/vex5/",
         "source": "/game/vex5/",
-        "title": "Vex 5"
+        "title": "Vex 5",
+        "id": "vex5"
     },
     {
         "image": "warfare1917.png",
         "pub": "/games/flash/warfare1917",
         "source": "/game/swfs/warfare1917.swf",
-        "title": "Warfare 1917"
+        "title": "Warfare 1917",
+        "id": "warfare1917"
     },
     {
         "image": "warfare1944.jpg",
         "pub": "/games/flash/warfare1944",
         "source": "/game/swfs/warfare1944.swf",
-        "title": "Warfare 1944"
+        "title": "Warfare 1944",
+        "id": "warfare1944"
     }
 ]

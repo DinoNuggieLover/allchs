@@ -3,18 +3,18 @@
 export async function load({ params, fetch, session, stuff }) {
     let request = await fetch("/json/games.json");
     let games = await request.json();
-    let game = games[params.slug];
-    if (game) {
-      return {
-        props: {
-          game: game
+    for (let i = 0; i < games.length; i++) {
+      if (games[i].id == params.slug) {
+        return {
+          props: {
+            game: games[i]
+          }
         }
       }
-    } else {
-      return {
-        status: 404,
-        error: "The Flash Game Could Not Be Found"
-      }
+    }
+    return {
+      status: 404,
+      error: "The Flash Game Could Not Be Found"
     }
 }
 </script>
