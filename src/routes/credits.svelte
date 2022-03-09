@@ -8,8 +8,15 @@
     </section>
 </div>
 
+<div class="data">
+Credits
+</div>
 
 <style>
+.data {
+  margin-left: 30px;
+}
+
 .banner {
     background: url(/image/pattern.png) repeat;
     background-size: 54px;

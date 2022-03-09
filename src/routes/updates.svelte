@@ -25,7 +25,7 @@
         <h1>Updates</h1>
     </section>
 </div>
-<div>  
+<div class="data">  
   {#each updates as { header, data }, i}
     <h2>{header}</h2>
     <ul>
@@ -37,6 +37,10 @@
 </div>
 
 <style>
+.data {
+  margin-left: 30px;
+}
+  
 .banner {
     background: url(/image/pattern.png) repeat;
     background-size: 54px;
