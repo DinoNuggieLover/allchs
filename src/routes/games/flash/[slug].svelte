@@ -13,7 +13,7 @@ export async function load({ params, fetch, session, stuff }) {
     } else {
       return {
         status: 404,
-        error: "The game could not be found"
+        error: "The Flash Game Could Not Be Found"
       }
     }
 }

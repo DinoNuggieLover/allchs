@@ -1,6 +1,11 @@
 [
-  "This page reads JSON data from /static/json/updates.json.",
-  "test1",
-  "test2",
-  "test3"
+  {
+    header: "3/8/22"
+    data: [
+      "This page reads JSON data from /static/json/updates.json.",
+      "test1",
+      "test2",
+      "test3"
+    ]
+  }
 ]

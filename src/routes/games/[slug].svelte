@@ -13,7 +13,7 @@ export async function load({ params, fetch, session, stuff }) {
     } else {
       return {
         status: 404,
-        error: "The game could not be found"
+        error: "The Game Could Not Be Found"
       }
     }
 }
@@ -26,5 +26,6 @@ export async function load({ params, fetch, session, stuff }) {
 <svelte:head>
    <title>{game.title} | All CHS</title>
 </svelte:head>
+
 <h1>{game.title}</h1>
 <p>Source of Game: {game.source}</p>

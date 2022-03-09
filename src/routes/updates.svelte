@@ -25,12 +25,15 @@
         <h1>Updates</h1>
     </section>
 </div>
-<div>
-  <ul>
-  {#each updates as update}
-    <li>{update}</li>
+<div>  
+  {#each updates as { header, data }, i}
+    <h2>{header}</h2>
+    <ul>
+      {#each data as update}
+        <li>{update}</li>
+      {/each}
+    <ul/>
   {/each}
-  <ul/>
 </div>
 
 <style>
