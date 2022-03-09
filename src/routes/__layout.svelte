@@ -58,7 +58,8 @@ body {
 }
   
 .wip {
-  height: 50;
+  margin: auto;
+  height: 50px;
   width: 100%;
   text-align: center;
 }
