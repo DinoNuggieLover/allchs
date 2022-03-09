@@ -6,7 +6,7 @@ export async function load({ params, fetch, session, stuff }) {
     for (let i = 0; i < games.length; i++) {
       let game = games[i];
       if (game.id == params.slug) {
-        game.source = "Place Holder";
+        game.source = "https://example.com";
         return {
           props: {
             game: game
