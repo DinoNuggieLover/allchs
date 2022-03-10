@@ -4,7 +4,7 @@
     <title>All CHS</title>
 </svelte:head>
 <body>
-    <nav>
+    <nav class="top-bar">
         <a href="/"> <img border="0" class="logo-img" src="/image/logo.png" height="110" width="110" /></a>
         <ul>
             <li><a href="/">Home</a></li>
@@ -80,12 +80,12 @@
         padding: 0px 1%;
     }
 
-    nav .menu-img {
+    .topbar .menu-img {
         width: 25px;
         margin-right: 20px;
     }
 
-    nav .logo-img {
+    .topbar .logo-img {
         width: 160;
         cursor: pointer;
         padding: 20px;
@@ -185,7 +185,7 @@
     footer {
         margin-top: auto;
         width: 100%;
-        height: 80px;
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -210,7 +210,7 @@
         color: var(--text-color);
         font-size: 15px;
     }
-    nav {
+    .topbar {
         display: flex;
         margin: 0 auto;
         width: var(--width);
@@ -222,8 +222,7 @@
     nav a:hover {
         text-decoration: underline;
     }
-    footer nav a,
-    footer nav span {
+    footer nav a, footer nav span {
         font-size: 14px;
         color: var(--text-color);
     }
