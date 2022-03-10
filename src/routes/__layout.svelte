@@ -185,7 +185,7 @@
     footer {
         margin-top: auto;
         width: 100%;
-        height: 70px;
+        height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
